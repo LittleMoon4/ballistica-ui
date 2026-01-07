@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "timestamp": 1767805942933,
+  "index": "/server-manager/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/server-manager/chunk-EZQG4JQT.js",
+        "/server-manager/chunk-ORKHBDC2.js",
+        "/server-manager/favicon.ico",
+        "/server-manager/index.html",
+        "/server-manager/main-NUCLVWKL.js",
+        "/server-manager/manifest.webmanifest",
+        "/server-manager/polyfills-6KKHS2JQ.js",
+        "/server-manager/styles-N4VALIZF.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/server-manager/assets/icons/icon-128x128.png",
+        "/server-manager/assets/icons/icon-144x144.png",
+        "/server-manager/assets/icons/icon-152x152.png",
+        "/server-manager/assets/icons/icon-192x192.png",
+        "/server-manager/assets/icons/icon-384x384.png",
+        "/server-manager/assets/icons/icon-512x512.png",
+        "/server-manager/assets/icons/icon-72x72.png",
+        "/server-manager/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/server-manager/assets/icons/icon-128x128.png": "430a7e31bd706c1d71403ceafd7004304339a42d",
+    "/server-manager/assets/icons/icon-144x144.png": "03c58d0581b9f7467bc51a697afc00f0a4ca8313",
+    "/server-manager/assets/icons/icon-152x152.png": "150863cec336f020352d1931dd44ea4cb3b134da",
+    "/server-manager/assets/icons/icon-192x192.png": "cbfafe03ecf872a98ff3eebb62d9df17defb792b",
+    "/server-manager/assets/icons/icon-384x384.png": "0887f2d280a3a40a22eeb5d2403ab4ee56544ec7",
+    "/server-manager/assets/icons/icon-512x512.png": "125a9ae5ef6f5af6e9a78d3805a5a9f59746fc44",
+    "/server-manager/assets/icons/icon-72x72.png": "e9ae00cc15b7c6db92df856be3537f0023e9c521",
+    "/server-manager/assets/icons/icon-96x96.png": "8742f49979dabb04951676c29a02152f48a7b09d",
+    "/server-manager/chunk-EZQG4JQT.js": "576f15c6f64183f8551b048eae83f7942ea589b0",
+    "/server-manager/chunk-ORKHBDC2.js": "aee2e903792916f5faac8bcd2278d1fa8f33f044",
+    "/server-manager/favicon.ico": "87258baf3e9096d6dac2c05177ce6b2c1e990cb6",
+    "/server-manager/index.html": "da63a14e70beb9f0e56c46532fa078f70626eba9",
+    "/server-manager/main-NUCLVWKL.js": "5c13c28201ba66cbf8af20b74ddad2befdf2e1b7",
+    "/server-manager/manifest.webmanifest": "626be62a9b9d9c6579544571ea6e311de489bc8a",
+    "/server-manager/polyfills-6KKHS2JQ.js": "06a31de63e386f89c7a4376dcbc9c1aebedf2d8b",
+    "/server-manager/styles-N4VALIZF.css": "aec1199112c0e45c5c9d8767dcd088590652c0bc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
